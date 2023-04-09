@@ -23,17 +23,25 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 ## Results
 
+### Data Preprocessing
 
-Data Preprocessing
+1. What variable(s) are the target(s) for your model?
+- Variable 'IS_SUCCESSFUL' is the target variable for the model, such that '1' is reprsentative of successful.
 
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
+2. What variable(s) are the features for your model?
+- 'IS_SUCCESSFUL' is the feature column chosen for the model.
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+3. What variable(s) should be removed from the input data because they are neither targets nor features?
+- Variables 'EIN' and 'Name' can be removed from the input data because they are neither targets nor features
+ 
+### Compiling, Training, and Evaluating the Model
+
+1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 Were you able to achieve the target model performance?
 What steps did you take in your attempts to increase model performance?
+
+
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
 ## Summary
