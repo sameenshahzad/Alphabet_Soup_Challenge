@@ -20,7 +20,6 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 
 3. Optimize the Model to achieve a target predictive accuracy higher than 75%
 
-
 ---------------------
 ## Results
 ---------------------
@@ -62,5 +61,5 @@ However, the accuracy did not reach 75%. Accuracy, in fact, decreased to 63%.
 ## Summary
 ---------------------
 
-
-Describe how you could use a different model to solve the same problem, and explain why you would use that model (6)
+Model's best result obtained using the different numbers of neurons and layers was a 72.7% accuracy for the relu and sigmoid activations. 
+To continue improving the model, I would reduce epoch between 20-50 for my next steps.
